@@ -7,6 +7,8 @@ gem 'rails_refactor'
 
 gem 'rack-cors', :require => 'rack/cors'
 
+gem "paperclip", "~> 6.0.0"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
