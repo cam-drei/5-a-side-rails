@@ -9,7 +9,7 @@ Rails.application.routes.draw do
       get 'tactics'
       get 'fitness'
       get 'tips'
-      post 'create'
+      # post 'create'
     end
   end
   
