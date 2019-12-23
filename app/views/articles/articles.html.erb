@@ -1,0 +1,19 @@
+
+
+<table style="width:50%; text-align: left">
+    <% @articles.each do |article| %>
+        <tr><th>-----------------</th></tr>
+        <tr>
+            <th>Title:</th>
+            <th><%= raw article.title %></th>
+        </tr>
+        <tr>
+            <th>Content:</th>
+            <th><%= raw article.content %></th>
+        </tr>
+        <tr>
+        
+    <% end %>
+</table>
+
+

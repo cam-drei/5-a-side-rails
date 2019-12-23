@@ -1,0 +1,16 @@
+<table style="width:50%; text-align: left">
+    <% @tips.each do |tip| %>
+        <tr><th>-----------------</th></tr>
+        <tr>
+            <th>Title:</th>
+            <th><%= tip.title %></th>
+        </tr>
+        <tr>
+            <th>Content:</th>
+            <th><%= tip.content %></th>
+        </tr>
+    <% end %>
+</table>
+
+
+
