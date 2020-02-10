@@ -7,7 +7,7 @@ class ArticlesController < ApplicationController
     def show
         params[:id]
         get_post_by_id = Article.find(params[:id])
-        render json: get_post_by_id.to_json
+        render json: get_post_by_id.to_json 
     end
 
 end
