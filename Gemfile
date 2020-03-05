@@ -7,6 +7,7 @@ gem 'rails_refactor'
 
 gem 'rack-cors', :require => 'rack/cors'
 
+gem 'friendly_id', '~> 5.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.1'
